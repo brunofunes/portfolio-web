@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Web</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- COMIENZO DE NAV -->
+    <nav>
+      <h1><strong>Portfolio</strong><span>.</span><img src="" alt="" /></h1>
+      <ul>
+        <a class="nav" href="#">INICIO</a>
+        <a class="nav" href="#about-me">ABOUT ME</a>
+        <a class="nav" href="#contact-me">CONTACTAME</a>
+      </ul>
+    </nav>
+    <!-- FINALIZA DE NAV -->
+
+
+
+    <!-- COMIENZO DE SECTION PRINCIPAL -->
+    <main>
+      <section class="container-principal">
+        <div class="text-principal">
+        <h2>Hola, Soy <strong>Bruno</strong>.</h2>
+        <p>
+          Desarrollador Full Stack con experiencia en la
+          creación de soluciones integrales
+          para aplicaciones web.
+        </p>
+        </div>
+        <img class="floating" src="./img/web.png" alt="Web" />
+      </section>
+      <ul class="container-redes">
+        <a href="https://www.instagram.com/bruno.funes/" target="_blank"><img src="./Assets/instagram-svgrepo-com.svg" alt="Instagram"/></a>
+        <a href="https://github.com/brunofunes" target="_blank"><img src="./Assets/github-svgrepo-com.svg" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/brunofunes/" target="_blank"><img src="./Assets/linkedin-svgrepo-com.svg" alt="Linkedin"/></a>
+      </ul>
+      <a class="descarga" href="./CV/FUNES, Bruno CV.pdf" download><button class="button">DESCARGAR CV</button></a>
+      <img class="arrow" src="./Assets/arrow-down.svg" alt="arrowDown"/>
+      <!-- FINALIZA DE SECTION PRINCIPAL -->
+
+
+
+      <!--ABOUT ME-->
+        <section id="about-me">
+          <article class="container-article">
+            <h2>Acerca de <strong>mí</strong></h2>
+            <h3>Desarrollador <strong>Full stack</strong></h3>
+            <p>Soy Bruno Funes, tengo 24 años y soy un apasionado por el Front-end. Disfruto poder resolver diversos problemas a los usuarios. Estoy comprometido con la excelencia y siempre estoy en busca de nuevas oportunidades para aprender y crecer.</p>
+            <div class="container-skills">
+              <img class="skills" src="./img/SKILLS/HTML.png" alt="LOGO HTML" title="HTML">
+              <img class="skills" src="./img/SKILLS/CSS.png" alt="LOGO CSS" title="CSS">
+              <img class="skills" src="./img/SKILLS/JS.png" alt="LOGO JAVASCRIPT" title="JAVASCRIPT">
+              <img class="skills" src="./img/SKILLS/Angular.png" alt="LOGO ANGULAR" title="ANGULAR">
+            </div>
+          </article>
+        </section>
+      <!--FINALIZA EL ABOUT ME-->
+
+
+
+      <!--CONTACT ME-->
+        <section id="contact-me" class="container-contact">
+          <h2>Contactame<strong>!</strong></h2>
+            <form class="container_input">
+              <div class="container-input">
+                <input class="input" type="text" placeholder="Nombre Completo" maxlength="40">
+                <input class="input" type="email" placeholder="Dirección de Correo">
+                <input class="input" type="tel" placeholder="Número de Teléfono">
+                <input class="input" type="text" placeholder="Asunto del Correo">
+              </div>
+              <textarea class="input-msj" type="text" placeholder="Escriba su Mensaje...">
+              </textarea>
+            </form>
+          <button class="btn-enviar">ENVIAR</button>         
+        </section>
+      </main>
+      <!--FINALIZA EL CONTACT ME-->
+
+
+    <footer class="footer-container">
+      <p>Copyright &copy; 2023 por Bruno Funes | Todos los derechos reservados.</p>
+        <a href="#"><img class="arrow-up" src="./Assets/arrow-up.svg" alt="arrow-up"></a>
+    </footer>
+  </body>
+</html>
